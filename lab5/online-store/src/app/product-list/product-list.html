@@ -1,0 +1,10 @@
+<div *ngIf="products.length === 0">Нет товаров в этой категории</div>
+
+<div class="grid" *ngIf="products.length > 0">
+  <app-product-item
+    *ngFor="let p of products"
+    [product]="p"
+    (like)="onLike($event)"
+    (delete)="onDelete($event)">
+  </app-product-item>
+</div>

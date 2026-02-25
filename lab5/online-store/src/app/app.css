@@ -1,0 +1,8 @@
+h1 { font-family: Arial, sans-serif; }
+.cats { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0; }
+.cat { padding: 8px 12px; border: 1px solid #ccc; background: white; border-radius: 10px; cursor: pointer; }
+.cat.active { border-color: black; font-weight: 700; }
+.welcome { margin-top: 16px; padding: 12px; border: 1px dashed #bbb; border-radius: 12px; font-family: Arial, sans-serif; }
+body {
+  background: #f8f9fb;
+}
